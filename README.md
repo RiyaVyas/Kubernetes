@@ -34,5 +34,7 @@ Using this repo to learn and experiment with kubernetes
     - *etcd*- Is a key/value store, that store all the information of configuration of the K8s cluster. Without etcd you won't have any cluster related information. If in any scenario you want to restoer th K8s cluster, etcd has the information of how it was built in the first place.
     - *Controller Manager*: k8s has multiple controllers like Repplica Controller, etc. Controller Manager makes sure that these controllers are always running. 
     - *Cloud Controller Manager*: CCM. It is an open source utility which has the logic for various cloud providers that allows kubernetes clusters to run on them. Basically allows Kubernetes to understand the cloud platform to allow the cluster to be hosted on there.
- 
+
+        ![image](https://github.com/user-attachments/assets/7bc4bc7b-8762-4a09-8294-3c026c2d3c0e)
+
   
