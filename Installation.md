@@ -2,6 +2,8 @@ To use kubernetes on your machine you need to install the following -
 1. Minikube
 2. Install Kubectl
 
+
+# Difference between kubectl and Minicube
 | Feature              | **Minikube**                                                                      | **kubectl**                                                                                               |
 | -------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | **Purpose**          | Creates and runs a local Kubernetes cluster                                       | Interacts with a Kubernetes cluster                                                                       |
@@ -14,7 +16,8 @@ To use kubernetes on your machine you need to install the following -
 
 
 To start your minikube cluser 
-  minikube start
+    
+    minikube start
 
 ![image](https://github.com/user-attachments/assets/a546b523-aa7a-4058-ab29-694a1d11402f)
 
