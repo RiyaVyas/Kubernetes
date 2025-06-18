@@ -25,9 +25,9 @@ Using this repo to learn and experiment with kubernetes
 # K8s Architecture 
 -  Has a master node and a worker node
 -  *Worker Node (Data Plane)*:
-  - *Kube Proxy*: Networking of K8s. Provides IP address to your pods. Handles load balancing for k8s.
-  - *Kubelet*: Responsible for creation of a pod. It also makes sure  that the pod is always running. If not running, it informs the master node(control plane), and gets it started again.
-  - *Container runtime*: Dockershim, crio, conatinerd. Supports all of these container runtimes.
+    - *Kube Proxy*: Networking of K8s. Provides IP address to your pods. Handles load balancing for k8s.
+    - *Kubelet*: Responsible for creation of a pod. It also makes sure  that the pod is always running. If not running, it informs the master node(control plane), and gets it started again.
+    - *Container runtime*: Dockershim, crio, conatinerd. Supports all of these container runtimes.
 - *Control Plane/Master Node*
     - *API Server*: Core component of K8s. API server exposes your K8s to the external world and takes all the request. API server decidedes where the pod must be brought up
     - *Scheduler*: Recieves the information from the API server and takes the action of actually bringing the pod up.
